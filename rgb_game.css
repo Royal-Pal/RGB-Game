@@ -1,0 +1,70 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: steelblue;
+    margin: 0;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: whitesmoke;
+    float: left;
+    margin: 1.66%;
+    transition: background 1s;
+    border-radius: 50px;
+}
+
+#stripe {
+    background-color: white;
+    color: steelblue;
+    text-align: center;
+    height: 30px;
+}
+
+button {
+    border: none;
+    background: none;
+    height: 100%;
+    color: steelblue;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    outline: none;
+}
+
+button:hover {
+    transition: all 0.3s;
+    background-color: steelblue;
+    color: white;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+#messageDisplay {
+    display: inline-block;
+    width: 20%;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
